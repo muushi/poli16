@@ -1,0 +1,137 @@
+@font-face {
+    font-family: pixel;
+    src: url('../fonts/com.ttf');
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	text-decoration: none;
+	color: #fff;
+    height: 60px;
+	background: #000000;
+	text-align: center;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+@media screen and (max-width : 768px){
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+        /*Create a horizontal list with spacing*/
+        display:inline-block;
+        float: left;
+        margin-right: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+    /*Style for menu links*/
+    li a {
+        display:block;
+    	min-width:140px;
+    	height: 50px;
+    	text-align: center;
+    	line-height: 50px;
+    	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    	color: #fff;
+    	background: #2f3036;
+    	text-decoration: none;
+    }
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+}
+
+nav {
+    background-color: #000000;
+    position: fixed;
+    font-family: pixel;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    line-height:60px;
+    opacity: 0.95;
+    z-index: 1;
+}
+
+header nav ul {
+  margin-right: 0;
+  padding: 0;
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+header a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+  color: #333;
+}
+a, a:hover {
+  -o-transition: color 0.25s ease-in;
+  -webkit-transition: color 0.25s ease-in;
+  -moz-transition: color 0.25s ease-in;
+  transition: color 0.25s ease-in;
+}
+
+.ielogo {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    height: 50px;
+    width: 50px;
+    margin-top: -25px;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+}
+
+.ielogo:hover {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/* navbar end */
+a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Basic CSS */
+/*
+header nav ul li ul {
+  display: none;
+}
+a:hover {
+  color: #333;
+}
+a, a:hover {
+  -o-transition: color 0.25s ease-in;
+  -webkit-transition: color 0.25s ease-in;
+  -moz-transition: color 0.25s ease-in;
+  transition: color 0.25s ease-in;
+}
+*/
