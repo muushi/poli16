@@ -1,3 +1,18 @@
+.new-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+#landingpage {
+  background: url("../img/test1.jpg") no-repeat fixed center / cover;
+}
+#test123 {
+  background: url("../img/test1.jpg") no-repeat fixed center / cover;
+  background-color: pink;
+}
+
 @font-face {
     font-family: pixel;
     src: url('../fonts/com.ttf');
@@ -6,12 +21,12 @@
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
 	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-decoration: none;
-	color: #fff;
-    height: 60px;
+	/*text-decoration: none;
+	color: #fff;*/
+    height: 0;
 	background: #000000;
-	text-align: center;
-	display: none;
+	/*text-align: center;
+	display: none;*/
 }
 
 /*Hide checkbox*/
@@ -46,16 +61,17 @@ input[type=checkbox]:checked ~ #menu{
     li a {
         display:block;
     	min-width:140px;
-    	height: 50px;
+    	height: 40px;
     	text-align: center;
-    	line-height: 50px;
+    	line-height: 40px;
     	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     	color: #fff;
     	background: #2f3036;
     	text-decoration: none;
     }
 	/*Display 'show menu' link*/
-	.show-menu {
+    .show-menu {
+        height: 60px;
 		display:block;
 	}
 }
