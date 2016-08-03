@@ -4,6 +4,11 @@ $(document).ready(function() {
         menu: "#navigation",
         recordHistory: false
     });
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (/*@cc_on!@*/false || !!document.documentMode)){
+        $.fn.fullpage.setAutoScrolling(false);
+    }
+    L.mapbox.accessToken = 'pk.eyJ1IjoibXV1c2hpIiwiYSI6ImNpcmV3ZHQ0ZDAwMTdpZGx5bTQwNTRuc3YifQ.rkg_L29WePLjrbYEspG2XA';
+    var map = L.mapbox.map('map', 'muushi.118bcbc5');
 });
 
 function localize(lang) {
