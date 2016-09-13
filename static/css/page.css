@@ -5,6 +5,12 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+.container {
+    width: 50%;
+}
+/*TODO: fix correct width for mobile*/
+
 #landingpage {
   background: url("../img/logo4.png") no-repeat fixed center;
 }/*

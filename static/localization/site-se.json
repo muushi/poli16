@@ -1,9 +1,25 @@
 {
-    "pleb": "123se",
     "navigation-1": "allmänt",
     "navigation-2": "biljetter",
     "navigation-3": "tidtabell",
     "navigation-4": "karta",
     "navigation-5": "övrigt",
-    "navigation-6": "kontakt"
+    "navigation-6": "kontakt",
+    "info-1": "SEPolin appro -baariseikkailu tulee taas uudella ilmeellä! Tämä legendaksi muodostunut Suomen suurin teekkarivetoinen baarikiertely kerää yhteen kaikki opiskelijat ja opiskelijamieliset. Tule pelaamaan itsesi huipulle sekä bilettämään jatkoilla Fii Fightersin ja Vilma Alinan tahtiin!",
+    "pricing": "SE13e myyjiltä<br>13.5e bailataan.fi:stä<br>7e vain jatkot<br>Liput sisältävät jatkojen narikkamaksun (3e)",
+    "levels-header": "SESuoritustasot",
+    "levels": "SE7 - taso 1<br>11 - taso 2<br>15 - taso 3",
+    "levels-note": "SEMuista approista poiketen suorituksiin ei vaadita aikaisempaa osallistumista, eli minkä tahansa suoritustason voi saavuttaa jo ensimmäisellä osallistumiskerralla.",
+    "sales-header": "SELipunmyynti",
+    "sales": "SELisätietoja lipunmyynnistä myöhemmin.",
+    "timetable": "SETapahtuma alkaa portaittain kello 16.00 lähtien aloitusbaarista, jonka jälkeen kiertelyaikaa on 5 tuntia. Yhteiset jatkot pamahtavat käyntiin kello 21 alkaen Apollo Live Clubilla (Mannerheimintie 16).",
+    "afterparty-header": "SEJatkojen aikataulu",
+    "afterparty": "SE22:30 Fii Fighters<br>00:30 Vilma Alina",
+    "what-poli-header": "SEMikä Polin Appro?",
+    "what-poli": "SEPolin Appro on Aalto-yliopiston ylioppilaskunnan (AYY) toimikunnan Isännistön ja Emännistön (IE) järjestämä tajunnanräjäyttävä appro Helsingin ydinkeskustassa. Appro sijoittuu Vanhan Polin ympäristölle teekkariuden alkulähteille rajaten approalueen Punavuoresta Kamppiin. Tänä vuonna 2016 appro järjestetään jo viidettä kertaa, sillä kaikkina aikaisempina vuosina meno on ollut huikeaa, kun lauma haalaripukuisia opiskelijoita ja opiskelijamielisiä tutkinnosta riippumatta ovat vallanneet Helsingin kadut. Muista approista poiketen Polin appro muuttaa muotoaan joka vuosi. Tänä vuonna approssa päästään nauttimaan tietokonepeleistä erilaisten erikoisrastien muodossa.",
+    "what-appro-header": "SEMikä appro?",
+    "what-appro": "SEAppron ideana on kiertää approlippuun merkittyjä baareja juomaleimoja keräten. Illan mittaan kerätyistä leimoista saa jatkopaikalla haalarimerkin, joka määräytyy leimojen lukumäärän mukaisesti. Polin approssa suoritusaika on neljä tuntia. Kiertelyn jälkeen suunnataan kohti Apollo Live Clubia, jossa ovat tapahtuman viralliset jatkot. Jatkoille pääsee approlipulla.",
+    "what-ie-header": "SEMikä IE?",
+    "what-ie": "SEIE eli Isännistö ja Emännistö on AYY:n Teekkarijaoston alla toimiva toimikunta, joka järjestää tapahtumia. IE on perinteisesti ollut toimikunta, johon kuuluu teekkariyhdistysten tapahtumavastaavia. AYY:n myötä teekkareiden vahvistukseksi IE:seen on liittynyt myös Kyltereitä ja Artsilaisia. Polin Appro on suurin IE:n yhdessä järjestämä tapahtuma. Koko porukkaa yhdistää innostus sekä antaumuksellinen asenne tapahtumien järjestämiseen luoden hauskanpidon puitteet kaikille.",
+    "contact": "SEOnko kysyttävää tai muuta mietittävää? Ota yhteyttä toimikunnan puheenjohtajaan IE-tirehtööriin sähköpostilla: peppi.seppala@ayy.fi"
 }
