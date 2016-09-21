@@ -4,6 +4,7 @@ $(document).ready(function() {
         menu: "#navigation",
         recordHistory: false
     });
+    $.fn.fullpage.setAutoScrolling(false);
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (/*@cc_on!@*/false || !!document.documentMode)){
         $.fn.fullpage.setAutoScrolling(false);
     }

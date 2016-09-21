@@ -12,7 +12,7 @@
 /*TODO: fix correct width for mobile*/
 
 #landingpage {
-  background: url("../img/logo4.png") no-repeat fixed center;
+  background: url("../img/logo4.png") no-repeat center;
 }/*
 #test123 {
   background: url("../img/test1.jpg") no-repeat fixed center / cover;
