@@ -9,7 +9,6 @@
 .container {
     width: 65%;
 }
-/*TODO: fix correct width for mobile*/
 
 #landingpage {
   background: url("../img/logo4.png") no-repeat center;
@@ -139,27 +138,15 @@ body {
     height:75%;
     width:90%;
 }
-/* Basic CSS */
-/*
-header nav ul li ul {
-  display: none;
-}
-a:hover {
-  color: #333;
-}
-a, a:hover {
-  -o-transition: color 0.25s ease-in;
-  -webkit-transition: color 0.25s ease-in;
-  -moz-transition: color 0.25s ease-in;
-  transition: color 0.25s ease-in;
-}
-*/
 
 /*
   M O B I L E
 */
 
 @media screen and (max-width : 768px){
+    p {
+        font-size: 14px;
+    }
     .container {
         width: 85%;
     }
