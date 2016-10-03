@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 50%;
+    width: 65%;
 }
 /*TODO: fix correct width for mobile*/
 
@@ -64,43 +64,6 @@ input[type=checkbox]{
 /*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu{
     display: block;
-}
-
-@media screen and (max-width : 768px){
-	/*Make dropdown links appear inline*/
-	ul {
-		position: static;
-		display: none;
-	}
-	/*Create vertical spacing*/
-	li {
-		margin-bottom: 1px;
-        /*Create a horizontal list with spacing*/
-        display:inline-block;
-        float: left;
-        margin-right: 1px;
-	}
-	/*Make all menu links full width*/
-	ul li, li a {
-		width: 100%;
-	}
-    /*Style for menu links*/
-    li a {
-      display:block;
-    	min-width:140px;
-    	height: 40px;
-    	text-align: center;
-    	line-height: 40px;
-    	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    	color: #fff;
-    	background: #2f3036;
-    	text-decoration: none;
-    }
-	/*Display 'show menu' link*/
-    .show-menu {
-      height: 60px;
-		  display:block;
-	}
 }
 
 nav {
@@ -191,3 +154,47 @@ a, a:hover {
   transition: color 0.25s ease-in;
 }
 */
+
+/*
+  M O B I L E
+*/
+
+@media screen and (max-width : 768px){
+    .container {
+        width: 85%;
+    }
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+        /*Create a horizontal list with spacing*/
+        display:inline-block;
+        float: left;
+        margin-right: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+    /*Style for menu links*/
+    li a {
+      display:block;
+    	min-width:140px;
+    	height: 40px;
+    	text-align: center;
+    	line-height: 40px;
+    	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    	color: #fff;
+    	background: #2f3036;
+    	text-decoration: none;
+    }
+	/*Display 'show menu' link*/
+    .show-menu {
+      height: 60px;
+		  display:block;
+	}
+}
