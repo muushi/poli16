@@ -6,17 +6,27 @@
   box-sizing: border-box;
 }
 
+ul {
+    white-space: nowrap;
+}
+
+ul, li {
+    list-style: none;
+    display: inline;
+}
+
 .container {
     width: 65%;
 }
 
+.logoimg {
+    width: 8%;
+    float: left;
+}
+
 #landingpage {
-  background: url("../img/logo4.png") no-repeat center;
-}/*
-#test123 {
-  background: url("../img/test1.jpg") no-repeat fixed center / cover;
-  background-color: pink;
-}*/
+  background: url("../img/appro-final.png") no-repeat center;
+}
 
 @font-face {
     font-family: pixel;
@@ -30,7 +40,11 @@
 
 h4 {
     font-family: start;
-    font-size: 16px;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
 }
 
 .blink {
@@ -144,6 +158,12 @@ body {
 */
 
 @media screen and (max-width : 768px){
+    #landingpage {
+      background: url("../img/appro-final.png") no-repeat fixed center / contain;
+      background-position: 50%;
+      width: 95%;
+    }
+
     p {
         font-size: 14px;
     }
