@@ -25,7 +25,15 @@ ul, li {
 }
 
 #landingpage {
-  background: url("../img/appro-final.png") no-repeat center;
+  /*background: url("../img/appro-final.png") no-repeat center;*/
+}
+
+.mobilelogo {
+    max-width: 100%;
+}
+
+.fronttext {
+    margin-top: 20%;
 }
 
 @font-face {
@@ -159,7 +167,7 @@ body {
 
 @media screen and (max-width : 768px){
     #landingpage {
-      background: url("../img/appro-final.png") no-repeat center / contain;
+      /*background: url("../img/appro-final.png") no-repeat center / contain;*/
     }
 
     p {
