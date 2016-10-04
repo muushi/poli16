@@ -33,7 +33,7 @@ ul, li {
 }
 
 .fronttext {
-    margin-top: 40%;
+    margin-top: 20%;
 }
 
 @font-face {
@@ -175,6 +175,10 @@ body {
     }
     .container {
         width: 85%;
+    }
+
+    .fronttext {
+        margin-top: 40%;
     }
 	/*Make dropdown links appear inline*/
 	ul {
