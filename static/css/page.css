@@ -159,9 +159,7 @@ body {
 
 @media screen and (max-width : 768px){
     #landingpage {
-      background: url("../img/appro-final.png") no-repeat fixed center / contain;
-      background-position: 50%;
-      width: 95%;
+      background: url("../img/appro-final.png") no-repeat center / contain;
     }
 
     p {
