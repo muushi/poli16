@@ -12,8 +12,8 @@ $(document).ready(function() {
         $.fn.fullpage.setAutoScrolling(false);
     }
     //placeholder map for test purposes
-    /*L.mapbox.accessToken = 'pk.eyJ1IjoibXV1c2hpIiwiYSI6ImNpcmV3ZHQ0ZDAwMTdpZGx5bTQwNTRuc3YifQ.rkg_L29WePLjrbYEspG2XA';
-    var map = L.mapbox.map('map', 'muushi.118bcbc5');*/
+    L.mapbox.accessToken = 'pk.eyJ1IjoibXV1c2hpIiwiYSI6ImNpcmV3ZHQ0ZDAwMTdpZGx5bTQwNTRuc3YifQ.rkg_L29WePLjrbYEspG2XA';
+    var map = L.mapbox.map('map', 'muushi.1n90il58');
 });
 
 function localize(lang) {
